@@ -1,7 +1,6 @@
 
 <div class="container-fluid">
     <div class="container">
-      <h2>Generate your quotes here</h2>
         <form  (ng-submit)='submitQuote()' #quoteForm='ngForm'>
           <div class="form-group">
             
@@ -19,9 +18,9 @@
             <label for="submitted">submitted on :</label>
             <input type="date" class="form-control" id="since" [(ngModel)]="newQuote.since" name="completeDate" #name='ngModel' required>
           </div>
-          <button type="submit" (click)='submitQuote()' class="btn btn-warning">ADD QUOTE</button>
+          <button type="submit" (click)='submitQuote()' class="btn btn-outline-dark">ADD QUOTE</button>
         </form>
     </div>
   
   </div>
-  
+   

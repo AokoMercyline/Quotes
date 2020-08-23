@@ -1,5 +1,5 @@
 import { Component, OnInit, EventEmitter , Output, Input} from '@angular/core';
-import { Quote } from '@angular/compiler';
+import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quote-detail',
@@ -17,10 +17,12 @@ export class QuoteDetailComponent implements OnInit {
     this.isComplete.emit(complete)
   }
 
-  // completeDate(complete:boolean){
-  //   this.isComplete.emit(complete)
-  // }
-
+  upVote(quote){
+    this.quote.upVote++
+  }
+  downVote(quote){
+    this.quote.downVote++
+  }
 
   constructor() { }
 

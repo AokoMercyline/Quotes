@@ -1,29 +1,32 @@
-<div class="container  btn-primary">
-    <h1>QUOTE GENERATOR</h1>
-    <hr>
+<div class="container-fluid" style="background-color:black;background-repeat:no-repeat;background-size: cover;;">
+    <div class="container" style="background-color:white;">
+        <h1 class="text-center" style="padding:20px;font-weight:bolder;">QUOTE GENERATOR</h1>
+        <hr>
 
-    <div class="row">
-        <div class="col-md-6">
-            <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-        </div>
-        <div class="col-md-6">
-            <div *ngFor='let quote of quotes;let i = index'>
-                <div class="container">
-                    <div class="card" style="background-color:green;margin: 20px;">
-                        <div class="container">
-                            <h3 id={{i}}>quote: "{{quote.quote}}" <br> by: {{quote.author}} <br> submitted
-                                by:{{quote.submittedBy}} <br> since :{{quote.since|date|uppercase}}</h3>
-                            <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+        <div class="row">
+            <div class="col-md-6">
+                <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+            </div>
+            <div class="col-md-6">
+                <div *ngFor='let quote of quotes;let i = index'>
+                    <div class="container">
+                        <div class="card" style="background-color:#cfe4e4;margin: 20px;">
+                            <div class="container text-center"
+                                style="padding-bottom:25px;font-family: 'Niconne', cursive;">
+                                <h3 id={{i}}>quote: "{{quote.quote}}" <br> by: {{quote.author}} <br> submitted
+                                    by:{{quote.submittedBy}} <br> since :{{quote.since|date|uppercase}}</h3>
+                                <button (click)='toggleDetails(i)' class="btn btn-dark">Toggle Details</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div *ngIf='quote.showDescription'>
-                    <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
+                    <div *ngIf='quote.showDescription'>
+                        <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 </div>

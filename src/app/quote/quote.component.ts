@@ -10,11 +10,11 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[ ] =[
-      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14)),
-      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14)),
-      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14)),
-      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14)),
-      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14)),
+      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14), 0,0),
+      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14),0,0),
+      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14),0,0),
+      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14),0,0),
+      new Quote('Procastination is the thief of time','nelson Mandela', 'Me',  new Date(2020, 4, 14),0,0),
       
   ];
 
