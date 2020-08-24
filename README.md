@@ -22,10 +22,12 @@ https://github.com/AokoMercyline/Quotes
 
  ## Behavioural Driven Development
 
- The website allows user to add quote and displays the quote with the quote title,author and quotes itself.
- The user is enable to delete the quote on their own choice.
- The user is enable to upVote and downVote ON the quotes.
- THe user is still not able to see the quote with the most upvote,currently being worked on.
+ * The website allows user to add quote and displays the quote with the quote title,author and quotes itself.
+ * The user is enable to delete the quote on their own choice.
+ * The user is enable to upVote and downVote ON the quotes.
+ * The user is still not able to see the quote with the most upvote,currently being worked on.
+ * On adding quote,it displays below the current quote,so the user has to scroll the page up so thsat he or she sees he  quote.
+
 
  
 ## Development server
@@ -56,4 +58,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Mit Licence
 
-copyright (copy) 2020 AokoMercyline
+copyright 2020 @AokoMercyline
