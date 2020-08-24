@@ -8,7 +8,11 @@ Aoko Mercyline
 
  This website creates an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+## Set Up Installation
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+* Run ng new Quotes with Angular and CSS.
+* cd Quotes to navigate into it.
+* Generated class-quote,quote-details && quote-form.
 
  ## Live link to website
 https://github.com/AokoMercyline/Quotes
