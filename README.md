@@ -15,7 +15,7 @@ Aoko Mercyline
 * Generated class-quote,quote-details && quote-form.
 
  ## Live link to website
-https://github.com/AokoMercyline/Quotes
+https://aokomercyline.github.io/Quotes/
 
  ## Languages used
 
