@@ -6,9 +6,7 @@
             
             <label for="name"> Quote </label>
             <input type="text" class="form-control" id="quote" [(ngModel)]="newQuote.quote" name="name" #name='ngModel' required>
-            <!-- <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-              <p>name is required</p>
-            </div> -->
+           
             <label for="description"> Author</label>
             <input type="text" class="form-control" id='author' [(ngModel)]="newQuote.author" name='author' #name='ngModel' required>
             
