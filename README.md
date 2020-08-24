@@ -17,7 +17,7 @@ Aoko Mercyline
  ## Live link to website
 https://aokomercyline.github.io/Quotes/
 
- ## Languages used
+ ## Technologies used
 
  * HTML
  * CSS
@@ -31,7 +31,7 @@ https://aokomercyline.github.io/Quotes/
  * The user is enable to upVote and downVote on the quotes.
  * On adding quote,it displays below the current quote,so the user has to scroll the page up so thsat he or she sees he  quote.
  * The user is still not able to see the quote with the most upvote,currently being worked on.
- 
+
 ## Development server
 
 Run `ng serve` for a ev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -56,7 +56,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## LICENCE
+
+## LICENCE and Copyright information
 
 [Mit Licence ](href="https://opensource.org/licenses/MIT)
 
