@@ -24,7 +24,7 @@ https://aokomercyline.github.io/Quotes/
  * Typescript
  * Javascript
 
- ## Behavioural Driven Development
+ ## Behavioural Driven Development(BDD)
 
  * The website allows user to add quote and displays the quote with the quote title,author and quotes itself.
  * The user is enable to delete the quote on their own choice.
@@ -32,8 +32,6 @@ https://aokomercyline.github.io/Quotes/
  * The user is still not able to see the quote with the most upvote,currently being worked on.
  * On adding quote,it displays below the current quote,so the user has to scroll the page up so thsat he or she sees he  quote.
 
-
- 
 ## Development server
 
 Run `ng serve` for a ev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
