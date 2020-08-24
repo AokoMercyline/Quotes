@@ -6,7 +6,7 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { DateCountPipe } from './date-count.pipe';
 import {FormsModule }  from  '@angular/forms';
-// import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 
 
 @NgModule({
@@ -20,7 +20,7 @@ import {FormsModule }  from  '@angular/forms';
   imports: [
     BrowserModule,
     FormsModule,
-    // AngularFontAwesomeModule,
+    
     
   ],
   providers: [],

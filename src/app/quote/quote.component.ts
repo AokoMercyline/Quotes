@@ -40,7 +40,7 @@ export class QuoteComponent implements OnInit {
     }
   }
   completeDate(complete: boolean){
-    // 
+    
   }
 
   constructor() { }
