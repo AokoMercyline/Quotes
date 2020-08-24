@@ -1,10 +1,36 @@
 # Quotes
 
+## Author
+
+Aoko Mercyline
+
+## Description
+
+ This website creates an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
+ ## Live link to website
+https://github.com/AokoMercyline/Quotes
+
+ ## Languages used
+
+ * HTML
+ * CSS
+ * Typescript
+ * Javascript
+
+ ## Behavioural Driven Development
+
+ The website allows user to add quote and displays the quote with the quote title,author and quotes itself.
+ The user is enable to delete the quote on their own choice.
+ The user is enable to upVote and downVote ON the quotes.
+ THe user is still not able to see the quote with the most upvote,currently being worked on.
+
+ 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a ev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
