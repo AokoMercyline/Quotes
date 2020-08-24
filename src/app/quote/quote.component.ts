@@ -12,7 +12,7 @@ export class QuoteComponent implements OnInit {
   quotes:Quote[ ] =[
       new Quote('Procastination is the thief of time','Edward Young ', 'Me',  new Date(2020, 4, 14), 0,0),
       new Quote('Dont be a slave to your emotion.Control them','Buddha', 'Me',  new Date(2020, 4, 14),0,0),
-      new Quote('Whatever is good for your soul.Do that','Robin Sharma', 'Me',  new Date(2020, 4, 14),0,0),
+      new Quote('Whatever is good for your soul.Do that','Aoko Mercyline', 'Me',  new Date(2020, 4, 14),0,0),
       new Quote('Dont let yesterday take up too much of today','Albert Einstein', 'Me',  new Date(2020, 4, 14),0,0),
       new Quote('Those who wake up today the future belongs to them','Malcom X', 'Me',  new Date(2020, 4, 14),0,0),
       
