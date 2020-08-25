@@ -6,6 +6,8 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { DateCountPipe } from './date-count.pipe';
 import {FormsModule }  from  '@angular/forms';
+import { HighlightersComponent } from './highlighters/highlighters.component';
+import { HighlightersDirective } from './highlighters.directive';
 
 
 
@@ -16,6 +18,8 @@ import {FormsModule }  from  '@angular/forms';
     QuoteDetailComponent,
     QuoteFormComponent,
     DateCountPipe,
+    HighlightersComponent,
+    HighlightersDirective,
   ],
   imports: [
     BrowserModule,
